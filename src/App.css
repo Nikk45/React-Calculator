@@ -36,3 +36,77 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  background-color: rgb(30, 29, 29);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.calculator{
+  width: 30%;
+  margin: 10% auto;
+  padding: 10px 0;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0px 5px 100px 10px rgba(0,255,255,0.7);
+}
+
+.input-fields{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input{
+  width: 50%;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 5px;
+}
+
+button{
+  padding: 8px 14px;
+  font-size: 16px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.res p{
+  font-weight: 500;
+}
+
+.success{
+  margin-top: 10px;
+  font-weight: 700;
+  color: rgb(25, 25, 201);
+}
+
+.error{
+  margin-top: 10px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: rgb(217, 21, 21);
+}
